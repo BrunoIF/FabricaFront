@@ -12,3 +12,13 @@
     list-style: none;
     font-size: 14px;
 }
+
+table.dataTable thead .sorting:last-child{
+	cursor: auto;
+}
+
+table.dataTable thead .sorting:last-child:after{
+ visibility: hidden !important;
+ content: " " !important;
+}
+
