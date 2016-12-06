@@ -1,0 +1,14 @@
+.sidebar-brand img{
+    height: 33px;
+}
+
+.info-fabricas{
+    list-style: none;
+    margin: 25px -35px;
+    font-size: 14px;
+}
+
+.info-graficos{
+    list-style: none;
+    font-size: 14px;
+}
