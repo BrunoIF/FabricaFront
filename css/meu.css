@@ -56,7 +56,15 @@ table.dataTable thead .sorting:last-child:after{
     padding: 10px;
 }
 
-/*TESTES*/
+/* Estatísticas */
 .input-edit{
     width: 50px;
+}
+
+.row-estatistica{
+    display: flex;
+}
+
+.row-estatistica [class*='col-md']{
+    flex-align: stretch;
 }
