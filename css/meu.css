@@ -2,17 +2,22 @@
     height: 33px;
 }
 
+.navbar-brand img{
+    height: 28px;
+}
+
 .info-fabricas{
     list-style: none;
     margin: 25px -35px;
     font-size: 14px;
 }
 
-.info-graficos{
-    list-style: none;
-    font-size: 14px;
+.table-edit button{
+    float: right;
+    margin: 10px;
 }
 
+/*Customising DataTables classes*/
 table.dataTable thead .sorting:last-child{
 	cursor: auto;
 }
@@ -22,3 +27,36 @@ table.dataTable thead .sorting:last-child:after{
  content: " " !important;
 }
 
+.dataTables_info, .dataTables_paginate, .dataTables_filter, .dataTables_length{
+    padding: 15px 25px;
+}
+
+.dataTables_length{
+    margin-right: 55px;
+}
+
+.dataTables_filter label{
+    padding: 0 15px !important;
+}
+
+.extra-info tr{
+    line-height: 2px;
+}
+
+.extra-info tr td{
+    padding: 11px !important;
+}
+
+.extra-info tr > :first-child{
+    font-weight: bold;
+}
+
+.legenda{
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/*TESTES*/
+.input-edit{
+    width: 50px;
+}
