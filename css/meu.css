@@ -35,6 +35,7 @@ table.dataTable thead .sorting:last-child:after{
     margin-right: 55px;
 }
 
+<<<<<<< HEAD
 .dataTables_wrapper .top{
 	right: 50px;
 }
@@ -45,6 +46,10 @@ table.dataTable thead .sorting:last-child:after{
 
 .dataTables_wrapper .top .dataTables_filter .form-control{
     margin-left: 5px;
+=======
+.dataTables_filter label{
+    padding: 0 15px !important;
+>>>>>>> 8aff47f9990fb71fe9d6450b962c062e8291af1c
 }
 
 .extra-info tr{
